@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Products Mania</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #777;
+        }
+
+        .product a {
+            text-decoration: none;
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .product a:hover {
+            background-color: #218838;
+        }
+
+        .about-us,
+        .contact-us {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Beauty Products Mania</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact-us">Contact Us</a>
+        <a href="#">Cart</a>
+    </nav>
+
+    <!-- Product Segments Listings -->
+    <div class="container" id="products">
+        <!-- Skincare Segment -->
+        <div class="product">
+            <img src="https://down-br.img.susercontent.com/file/sg-11134201-22100-eigk3l9ub9ive0" alt="Skincare Image">
+            <h2>Skincare</h2>
+            <p>Explore our wide range of skincare essentials, including hydrating moisturizers, serums, cleansers, toners, and more to nourish and rejuvenate your skin.</p>
+            <a href="https://www.simpleskincare.in/?srsltid=AfmBOoraTFrf7tbDr0qpQxCvCm4u-FTriVBmf837-3zRifomgX2lhuEG" target="_blank">Explore Skincare</a>
+        </div>
+
+        <!-- Makeup Segment -->
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/71I1RUXlL+L.jpg" alt="Makeup Image">
+            <h2>Makeup</h2>
+            <p>Discover vibrant, trend-setting makeup products like bold lip colors, flawless foundations, and stunning eyeshadows to express your personality.</p>
+            <a href="https://www.myntra.com/makeup" target="_blank">Explore Makeup</a>
+        </div>
+
+        <!-- Haircare Segment -->
+        <div class="product">
+            <img src="https://beintelligent.in/cdn/shop/files/hair_care_pack146.png?v=1725363946" alt="Haircare Image">
+            <h2>Haircare</h2>
+            <p>From nourishing shampoos to luxurious conditioners and treatments, find everything you need for healthy, shiny, and beautiful hair.</p>
+            <a href="https://www.arata.in/collections/hair-care?srsltid=AfmBOoocQoCUjeB45MFfmrifco3udN8CV71jTT45yR9AKUga3nf7tJYA" target="_blank">Explore Haircare</a>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about-us" id="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to Beauty Products Mania, where beauty meets passion! Our journey started with a simple idea: to help people embrace their natural beauty while providing them with the best products from across the globe. At Beauty Products Mania, we believe that beauty is more than just a routine; it’s a form of self-expression and empowerment.</p>
+        <p>Our product line is carefully curated to meet the diverse needs of our customers. From luxurious skincare essentials that nourish and rejuvenate your skin to vibrant, trend-setting makeup that lets your personality shine, we’ve got you covered. Our skincare range includes hydrating moisturizers, anti-aging serums, cleansers, toners, and masks, all designed to enhance your natural glow. For makeup lovers, we offer everything from bold lip colors and flawless foundations to eye-catching eyeshadows and highlighters that make you stand out.</p>
+        <p>We’re also passionate about hair care, offering a wide selection of shampoos, conditioners, treatments, and styling products that keep your hair healthy, shiny, and full of life. Whether you have straight, wavy, curly, or coily hair, we have something tailored just for you.</p>
+        <p>At Beauty Products Mania, we prioritize quality and sustainability. That’s why all our products are cruelty-free, sourced from trusted brands that focus on innovation, ethical practices, and skin-friendly ingredients. We are committed to providing beauty solutions for every skin type, tone, and concern, ensuring that everyone can feel beautiful and confident in their own skin.</p>
+        <p>Join us on this exciting beauty journey, and let Beauty Products Mania be your go-to for all your skincare, makeup, and hair care needs!</p>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="contact-us" id="contact-us">
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> +91 9112618808</p>
+        <p><strong>Email:</strong> pasalkar.divya@gmail.com</p>
+        <br>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Beauty Products Mania. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
